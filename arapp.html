@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AR App - AR Learn Project</title>
+  <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+  <script src="https://rawcdn.githack.com/AR-js-org/AR.js/3.3.2/aframe/build/aframe-ar.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.3/howler.min.js" integrity="sha512-6+YN/9o9BWrk6wSfGxQGpt3EUK6XeHi6yeHV+TYD2GR0Sj/cggRpXr1BrAQf0as6XslxomMUxXp2vIl+fv0QRA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body style="margin : 0px; overflow: hidden;">
+    <a-scene embedded arjs>
+      <a-assets>
+        <a-asset-item id="A" src="./assests/markers/royal_gala_apples/scene.gltf"></a-asset-item>
+        <a-asset-item id="B" src="./assests/markers/bee/scene.gltf"></a-asset-item>
+        <a-asset-item id="C" src="./assests/markers/an-animated-cat/source/cat (2)/scene.gltf"></a-asset-item>
+        <a-asset-item id="D" src="./assests/markers/baby_dog/scene.gltf"></a-asset-item>
+        
+      </a-assets>
+      <a-marker type="pattern" url="./assests/markers/pattern-A.patt">
+        <a-gltf-model src="#A" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker name="bees" class="ar-marker" type="pattern" url="./assests/markers/pattern-B.patt">
+        <a-gltf-model src="#B" animation-mixer scale=".5 .5 .5"></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-C.patt">
+        <a-gltf-model src="#C" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-D.patt">
+        <a-gltf-model src="#D" animation-mixer scale="1.5 1.5 1.5"></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-E.patt">
+        <a-gltf-model src="#E" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-F.patt">
+        <a-gltf-model src="#F" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-G.patt">
+        <a-gltf-model src="#G" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-H.patt">
+        <a-gltf-model src="#H" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-I.patt">
+        <a-gltf-model src="#I" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-J.patt">
+        <a-gltf-model src="#J" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-K.patt">
+        <a-gltf-model src="#K" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-L.patt">
+        <a-gltf-model src="#L" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-M.patt">
+        <a-gltf-model src="#M" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-N.patt">
+        <a-gltf-model src="#N" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-O.patt">
+        <a-gltf-model src="#O" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-P.patt">
+        <a-gltf-model src="#P" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-Q.patt">
+        <a-gltf-model src="#Q" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-R.patt">
+        <a-gltf-model src="#R" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-S.patt">
+        <a-gltf-model src="#S" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-T.patt">
+        <a-gltf-model src="#T" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-U.patt">
+        <a-gltf-model src="#U" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-V.patt">
+        <a-gltf-model src="#V" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-W.patt">
+        <a-gltf-model src="#W" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-X.patt">
+        <a-gltf-model src="#X" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-Y.patt">
+        <a-gltf-model src="#Y" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-marker type="pattern" url="./assests/markers/pattern-Z.patt">
+        <a-gltf-model src="#Z" animation-mixer></a-gltf-model>
+      </a-marker>
+      <a-entity camera></a-entity>
+    </a-scene>
+
+    <script>
+      let beesSound = new Howl({
+        src: ['./assets/sounds/sound-effect-bees-buzzing-153375.mp3'],
+        autoplay: false
+      });
+  
+      let dogSound = new Howl({
+        src: ['./assets/sounds/small-dog-barking-84707.mp3'],
+        autoplay: false
+      });
+    </script>
+</body>
+</html>
+
+
