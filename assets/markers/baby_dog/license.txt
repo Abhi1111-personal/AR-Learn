@@ -1,0 +1,11 @@
+Model Information:
+* title:	Baby Dog
+* source:	https://sketchfab.com/3d-models/baby-dog-b81a69e333304d30ad9455261fe86aab
+* author:	noahmostafa664 (https://sketchfab.com/noahmostafa664)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Baby Dog" (https://sketchfab.com/3d-models/baby-dog-b81a69e333304d30ad9455261fe86aab) by noahmostafa664 (https://sketchfab.com/noahmostafa664) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

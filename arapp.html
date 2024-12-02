@@ -1,4 +1,39 @@
 <!DOCTYPE html>
+ <html>
+ <head>
+   <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+   <script src="https://rawcdn.githack.com/AR-js-org/AR.js/3.3.2/aframe/build/aframe-ar.js"></script>  
+   <script src="https://cdn.jsdelivr.net/gh/c-frame/aframe-extras@7.4.0/dist/aframe-extras.min.js"></script>
+ </head>
+ 
+ <body style="margin : 0px; overflow: hidden;">
+ 
+   <a-scene embedded arjs>
+     <a-assets>
+       <!-- <a-asset-item id="A" src="./assets/markers/royal_gala_apples/scene.gltf"></a-asset-item> -->
+       <a-asser-item id="B" src="./assets/bee/scene.gltf"></a-asser-item>
+     </a-assets>
+     <a-marker type="pattern" url="./assets/markers/pattern-A.patt">
+       <a-gltf-model src="#A" animation-mixer scale="0.5 0.5 0.5"></a-gltf-model>
+     </a-marker>
+     <a-marker type="pattern" url="./assests/markers/pattern-B.patt">
+      <a-gltf-model src="#B" animation-mixer scale=".5 .5 .5"></a-gltf-model>
+    </a-marker>
+     <a-entity camera></a-entity>
+   </a-scene>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -113,4 +148,4 @@
 </body>
 </html>
 
-
+ -->
